@@ -7,4 +7,35 @@ These are based on the old "SchoolHomework" project done by the author but done 
 
 ## Repositories Included
 1. SchoolShorts
-2. SchoolShorts Persistence API
+2. SchoolDataAPI (RESTFull Persistence API)
+3. MariaDB Database (Persistance Store)
+
+## Architectural Dependencies (When Completed)
+```
+┌───────────────────────┐                          ┌────────────────────────┐
+│                       │                          │                        │
+│                       │                          │                        │
+│                       │                          │                        │
+│   SchoolShorts        │                          │   SchoolDataAPI        │
+│   JAR/ Container      │                          │   JAR/ Container       │
+│   Web Application     ├─────────────────────────►│   Web Application      │
+│                       │                          │                        │
+│                       │                          │                        │
+│                       │                          │                        │
+│                       │                          │                        │
+└───────────────────────┘                          └────────────┬───────────┘
+                                                                │
+                                                                │
+                                                                │
+                                                                │
+                                                                ▼
+                                                 ┌───────────────────────────┐
+                                                 │                           │
+                                                 │                           │
+                                                 │  MariaDB Database         │
+                                                 │  JAR/ Container           │
+                                                 │  Data Store               │
+                                                 │                           │
+                                                 │                           │
+                                                 └───────────────────────────┘
+```
