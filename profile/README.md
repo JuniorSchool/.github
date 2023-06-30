@@ -1,6 +1,6 @@
 # JuniorSchool
 JuniorSchool is a collection of Github repositories, all related to one another and all Open Source (MIT License) for junior school home practice and games websites.
-These are based on the old "(https://sourceforge.net/projects/schoolhomework/)[SchoolHomework]" project done by the author but done using more modern technologies and broken down into seperate microservices architecture.
+These are based on the old (https://sourceforge.net/projects/schoolhomework/)[SchoolHomework] project done by the author but done using more modern technologies and broken down into seperate microservices architecture.
 
 ## Author(s)
 1. Hammad Rauf
